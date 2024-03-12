@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLONED PAGE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 1rem;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+
+        main section {
+            width: 40%;
+        }
+
+        main section h2 {
+            color: #007BFF;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        main section p {
+            margin-bottom: 1rem;
+        }
+
+        main button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zerodha - Online stock trading</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Invest in everything</h2>
+            <p>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
+            <button>Sign up now</button>
+        </section>
+
+        <img src="https://zerodha.com/static/images/landing.png" alt="Zerodha landing page image" style="width: 50%; height: auto;">
+             
+        <section>
+            <h2>Pricing</h2>
+            <p>1.69L</p>
+            <p>25.35k - 72.5k</p>
+            <p>Randomly Selected By Me 😜</p>
+        </section>
+    </main>
+    <footer>
+        <p>CLONE PAGE OF ZERODHA</p>
+        <p>Created by Karan 😎</p>
+    </footer>
+</body>
+</html>
